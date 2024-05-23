@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Simple Calculator</title>
+  </head>
+  <body>
+    <div class="main">
+    <div class="text-center mt-5">
+       
+      
+      <h5 class = "exp">_</h5>
+      <h5 class="result"> 0 </h5> 
+      
+  </div>
+
+
+    <div class="text-center mt-5">
+    
+  
+
+<div>
+    
+ 
+  </div>
+  <div class="btn-cal">
+    <div class="row1">
+    <button onclick="makeExp('7')" class="btn-box btn-primary">7</button>
+    <button onclick="makeExp('8')" class="btn-box btn-primary">8</button>
+    <button onclick="makeExp('9')" class="btn-box btn-primary">9</button>
+    <button onclick="makeExp('+')" class="btn-box btn-light">+</button>
+    <button onclick="makeExp('%')" class="btn-box btn-light">%</button>
+  </div>
+  </div>
+
+  <div class="btn-cal">
+    <div class="row2">
+    <button onclick="makeExp('4')" class="btn-box btn-primary">4</button>
+    <button onclick="makeExp('5')" class="btn-box btn-primary">5</button>
+    <button onclick="makeExp('6')" class="btn-box btn-primary">6</button>
+    <button onclick="makeExp('-')" class="btn-box btn-light">-</button> 
+    <button onclick="makeExp('squareroot')" class="btn-box btn-light">√x</button> 
+  </div>
+  </div>
+  <div class="btn-cal">
+    <div class="row3">
+    <button onclick="makeExp('7')" class="btn-box btn-primary">7</button>
+    <button onclick="makeExp('8')" class="btn-box btn-primary">8</button>
+    <button onclick="makeExp('9')" class="btn-box btn-primary">9</button>
+    <button onclick="makeExp('.')" class="btn-box btn-light">.</button>
+    <button onclick="makeExp('/')" class="btn-box btn-light">/</button>
+  </div>
+  </div>
+  <div class="btn-cal">
+  <div class="row4">
+    <button onclick="clearResult('AC')" class="btn-box btn-secondary">AC</button>
+
+    <button onclick="makeExp('0')" class="btn-box btn-primary">0</button>
+   
+    <button onclick="clearresult(x)" class="btn-box btn-light">x</button>
+    <button onclick="makeExp('*')" class="btn-box btn-light">*</button>
+    <button onclick="makeResut('=')" class="btn-box btn-light">=</button>
+  </div>
+    
+  </div>
+</div>
+</div>
+    <script>
+    
+      src="https://kit.fontawesome.com/4f4f90adbc.js"
+      crossorigin="anonymous"
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
