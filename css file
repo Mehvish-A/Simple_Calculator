@@ -1,0 +1,14 @@
+.btn-box{
+  height:50px;
+  width:50px;
+margin: 5px;
+
+}
+.main{
+  width: 400px;
+  height: 450px;
+  background-color: white;
+  position: absolute;
+  border: 5px solid grey;
+  border-radius: 6px; 
+}
